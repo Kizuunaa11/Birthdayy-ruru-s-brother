@@ -202,7 +202,7 @@ export default function HomePage() {
                         <ambientLight intensity={0.55} />
                         <directionalLight position={[2, 6, 4]} intensity={1.05} color="#ffe7c5" />
                         <spotLight position={[-4, 6, 5]} angle={0.35} intensity={0.45} penumbra={1} />
-                        <Float floatIntensity={1.1} rotationIntensity={0.35} floatRange={[0.18, 0.5]}>
+                        <Float floatIntensity={1.1} rotationIntensity={0.35} floatingRange={[0.18, 0.5]}>
                           <GiftBox isOpened={boxOpened} />
                         </Float>
                         <ContactShadows position={[0, -1, 0]} opacity={0.75} scale={10} blur={3} far={1.5} />
